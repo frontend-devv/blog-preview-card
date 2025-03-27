@@ -33,8 +33,8 @@ Mobile (375×734 px)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/frontend-devv/blog-preview-card)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL](https://github.com/frontend-devv/blog-preview-card)
+- [Live Site URL](https://your-live-site-url.com)
 
 ## My process
 
