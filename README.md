@@ -34,7 +34,7 @@ Mobile (375×734 px)
 ### Links
 
 - [Solution URL](https://github.com/frontend-devv/blog-preview-card)
-- [Live Site URL](https://your-live-site-url.com)
+- [Live Site URL](https://endearing-kataifi-083240.netlify.app/)
 
 ## My process
 
