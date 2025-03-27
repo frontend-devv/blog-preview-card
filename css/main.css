@@ -1,0 +1,107 @@
+:root {
+  --color-yellow: #f4d04e;
+  --color-gray-950: #111111;
+  --color-gray-500: #6b6b6b;
+  --color-white: #ffffff;
+  --spacing-300: 1.5rem;
+  --spacing-150: 0.75rem;
+  --spacing-100: 0.5rem;
+  --spacing-50: 0.25rem;
+}
+
+* {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Figtree", sans-serif;
+  color: var(--gray-950);
+  background-color: var(--color-yellow);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1.5rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  justify-content: center;
+  max-width: 24rem;
+  background-color: var(--color-white);
+  padding: 1.5rem;
+  border-radius: 1.25rem;
+  box-shadow: 0.5rem 0.5rem 0 0 var(--color-gray-950);
+  border: 1px solid var(--color-gray-950);
+}
+
+.card__image {
+  border-radius: 0.625rem;
+  width: 100%;
+}
+.card__description {
+  display: flex;
+  flex-direction: column;
+}
+.card__category {
+  padding: 0.25rem 0.75rem;
+  background-color: var(--color-yellow);
+  align-self: flex-start;
+  border-radius: 0.25rem;
+}
+.card__date {
+  font-size: clamp(0.75rem, 2vw, 0.875rem);
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0;
+}
+.card__title-link:link, .card__title-link:visited {
+  font-size: clamp(1.25rem, 3vw, 1.5rem);
+  font-weight: 800;
+  line-height: 1.5;
+  letter-spacing: 0;
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.2s ease-in-out;
+}
+.card__title-link:hover, .card__title-link:focus, .card__title-link:active {
+  color: var(--color-yellow);
+  cursor: pointer;
+  outline: none;
+}
+.card__text {
+  font-size: clamp(0.875rem, 2vw, 1rem);
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0;
+  color: var(--color-gray-500);
+}
+.card__author {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  gap: 0.75rem;
+}
+.card__avatar {
+  width: 2rem;
+}
+.card__author-name, .card__category {
+  font-size: clamp(0.75rem, 2vw, 0.875rem);
+  font-weight: 800;
+  line-height: 1.5;
+  letter-spacing: 0;
+}
+.card__author-name {
+  font-size: 0.875rem;
+}
+.card__category, .card__date, .card__title {
+  margin-bottom: 0.75rem;
+}
+.card__text {
+  margin-bottom: 1.5rem;
+}/*# sourceMappingURL=main.css.map */
